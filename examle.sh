@@ -1,0 +1,4 @@
+cat ./sample_data/25051921.1925 | shmdump -tq -H 2.0:1.0:0.5:5.0 -f dastest_100ch.ch - | python3 ./shmfall.py -i -s0 -f dastest_100ch.ch -v-20000:20000 -d30 --debug
+cat ./sample_data/25051921.1925 | shmdump -tq -H 2.0:1.0:0.5:5.0 -f dastest_100ch.ch - | python3 ./shmfall.py -e0 -i -s0 -f dastest_100ch.ch -v0:30000 -d30 --debug
+cat ./sample_data/25051921.2218 | shmdump -tq -H 2.0:1.0:0.5:5.0 -f dastest_100ch.ch - | python3 ./shmfall.py -n0  -i -s0 -f dastest_100ch.ch -v-3:3 -d30 --debug
+cat ./sample_data/25051921.2218 | shmdump -tq -H 2.0:1.0:0.5:5.0 -f dastest_100ch.ch - | python3 ./shmfall.py -n0 -e0 -i -s0 -f dastest_100ch.ch -v0:3 -d30 --debug
