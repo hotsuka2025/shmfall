@@ -181,7 +181,7 @@ cat sample_data/25051921.1925 \
 ## References
 
 - Urabe, T., & Tsukada, S., 1992. *win - A Workstation Program for Processing Waveform Data from Microearthquake Networks*, Seismological Society of Japan Fall Meeting Abstracts, p. 41.  
-- Urabe, T., 1994. *多チャネル地震波形データのための共通フォーマットの提案*, Seismological Society of Japan Abstracts, No. 2, p. 24.  
+- Urabe, T., 1994. *A Common Format for Multi-Channel Earthquake Waveform Data*, Seismological Society of Japan Abstracts, No. 2, p. 24.  
 - `shmfall.py` (implementation: `StreamReader` / `parse_data_stream`)  
 - `example.sh` (example commands)  
 - `dastest_100ch.tbl` (example channel table)  
