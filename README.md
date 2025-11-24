@@ -161,6 +161,9 @@ cat sample_data/25051921.1925 \
 - Make sure the channel table column positions (ID, lat, lon, etc.) match what
   `shmfall.py` expects. The script parses each line with `split()` and uses
   fixed column indices.
+- For details on how to prepare a channel table,   see the WIN system manual:
+  https://wwweic.eri.u-tokyo.ac.jp/WIN/man.ja/win.html
+  (section: “2.2 Parameter files / [2] Channel table file”).
 - If data are misaligned or gaps are frequent, review your `shmdump` options
   and the piping path.
 
@@ -172,9 +175,6 @@ cat sample_data/25051921.1925 \
   If you provide a different text format, modify the parser in `shmfall.py`.
 - Rendering can become heavy with very large channel counts and/or high sampling
   rates. Tune `-d` (duration) and sampling settings as needed.
-- For details on how to prepare a channel table, see the WIN system manual:  
-  https://wwweic.eri.u-tokyo.ac.jp/WIN/man.ja/win.html  
-  (section: “2.2 Parameter files / [2] Channel table file”).
 
 ---
 
