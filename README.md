@@ -14,7 +14,7 @@ It does **not** access shared memory directly; instead, it runs by piping the st
 
 This README provides a concise usage guide for `shmfall.py`. For more detailed descriptions, please refer to:
 
-- Otsuka, H., Tanaka, S., Shinohara, M., 2025. *Real-Time Waterfall Visualization Tool for the WIN System*, Technical Report of the Earthquake Research Institute, University of Tokyo, No. 31.
+- Otsuka, H., Tanaka, S., Shinohara, M., 2025. *Real-Time Waterfall Visualization Tool for the WIN System*, Technical Research Report, Earthquake Research Institute, The University of Tokyo, No. 31.
 
 For documentation on the WIN system (Urabe & Tsukada, 1992), see:
 
