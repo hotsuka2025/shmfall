@@ -1,0 +1,18 @@
+Notification to Sample Data Users
+
+Authors / Copyright Holder:
+- Hironori Otsuka (ERI, UTokyo)
+- Shinichi S. Tanaka (ERI, UTokyo)
+- Masanao Shinohara (ERI, UTokyo)
+
+The sample data included in this project (“sample_data”) may be used solely for demonstration or evaluation purposes related to the accompanying software.
+
+The following actions are strictly prohibited:
+
+Modification of the Sample Data
+
+Redistribution or sharing of the Sample Data in any form
+
+Commercial use of the Sample Data
+
+All rights to the Sample Data are retained by the authors.
