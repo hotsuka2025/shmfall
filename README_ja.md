@@ -39,16 +39,16 @@ source .venv/bin/activate
 pip install --upgrade pip
 ```
 
-2. 依存インストール（いずれか）:
+2. 依存関係のインストール（いずれか）:
 - プロジェクトインストール（`pyproject.toml` がある場合、推奨）
 ```sh
 pip install -e .
 ```
-- 最低限の主要ライブラリを直接インストール（簡易）
+- 最低限の主要ライブラリを直接インストール
 ```sh
 pip install matplotlib scipy numpy
 ```
-- `requirements.txt` を生成したい場合（ローカルで依存を入れた後）
+- `requirements.txt` を生成したい場合（ローカルで依存ライブラリを入れた後）
 ```sh
 pip freeze > requirements.txt
 ```
@@ -56,7 +56,7 @@ pip freeze > requirements.txt
 ## 実行例（基本形）
 shmdump の出力をパイプで渡す基本形:
 ```sh
-shmdump -tq <shm_id> -[L|H|B] <fliter> -f <channel_table> - | uv run python3 shmfall.py -f <channel_table> [オプション]
+shmdump -tq <shm_id> -[L|H|B] <fliter> -f <channel_table> - | python3 shmfall.py -f <channel_table> [オプション]
 ```
 
 ### 必須引数
@@ -107,4 +107,5 @@ cat sample_data/25051921.1925 | shmdump -tq -H 2.0:1.0:0.5:5.0 -f dastest_100ch.
 - `shmfall.py`（実装本体、StreamReader / parse_data_stream を参照）
 - `example.sh`（実行例の収集元）
 - `pyproject.toml`（プロジェクト依存の定義）
+
 
