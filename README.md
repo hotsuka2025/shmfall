@@ -94,7 +94,7 @@ pip freeze > requirements.txt
 Pipe the output of `shmdump` to `shmfall.py`:
 
 ``` sh
-shmdump -tq <shm_id> -[L|H|B] <filter> -f <channel_table> -   | uv run python3 shmfall.py -f <channel_table> [options]
+shmdump -tq <shm_id> -[L|H|B] <filter> -f <channel_table> -   | python3 shmfall.py -f <channel_table> [options]
 ```
 
 ------------------------------------------------------------------------
@@ -214,5 +214,6 @@ cat sample_data/25051921.1925   | shmdump -tq -H 2.0:1.0:0.5:5.0 -f dastest_100c
     `parse_data_stream`)\
 -   `example.sh` (collection of execution examples)\
 -   `pyproject.toml` (project dependency definitions)
+
 
 
