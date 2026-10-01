@@ -22,6 +22,7 @@ For a detailed description of the tool, see:
 -   Otsuka, H., Tanaka, S., Shinohara, M., 2025. *Real-Time Waterfall
     Plot Tool for the WIN System*, Technical Research Report, Earthquake
     Research Institute, University of Tokyo, No. 31.
+    [DOI:10.15083/0002014879](https://doi.org/10.15083/0002014879)
 
 For an overview of the WIN system (Urabe & Tsukada, 1992), refer to:
 
